@@ -15,6 +15,6 @@ CMD="$CMD mojopaste_v1"
 # NOTE: Start by deamon
 # CMD="$CMD sh -c 'cd /usr/src/app && exec mojopaste daemon --listen http://*:8080'"
 # NOTE start by hypnotoad
-CMD="$CMD sh -c 'cd /usr/src/app && exec hypnotoad -f $(which mojopaste)'"
+CMD="$CMD sh -c 'cd /usr/src/app && exec hypnotoad -f /usr/local/bin/mojopaste'"
 
 eval $CMD
