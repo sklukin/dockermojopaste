@@ -4,3 +4,4 @@ Dockerfile for run App::mojopaste
 * cd docker
 * docker build --no-cache -t mojopaste_v1 .
 * ./docker-run.sh
+* or ./docker-run.sh -d
