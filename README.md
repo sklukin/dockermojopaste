@@ -1,6 +1,6 @@
 Dockerfile for run App::mojopaste
 
-* git pull
+* git clone
 * cd docker
 * docker build --no-cache -t mojopaste_v1 .
 * ./docker-run.sh
